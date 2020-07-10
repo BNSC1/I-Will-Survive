@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:example="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1ECEC"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/SkipBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/bg_round_button"
+        android:onClick="onClick"
+        android:text="跳過"
+        android:textSize="24sp"
+        example:layout_constraintEnd_toEndOf="parent"
+        example:layout_constraintHorizontal_bias="1.0"
+        example:layout_constraintStart_toStartOf="parent"
+        example:layout_constraintTop_toTopOf="parent" />
+
+    <android.lib.widget.verticalmarqueetextview.VerticalMarqueeTextView
+        android:id="@+id/text1"
+        android:layout_width="400dp"
+        android:layout_height="674dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        example:layout_constraintEnd_toEndOf="parent"
+        example:layout_constraintHorizontal_bias="1.0"
+        example:layout_constraintStart_toStartOf="parent"
+        example:layout_constraintTop_toTopOf="parent"
+        example:marqueeSpeed="50"
+        example:text="2020年台灣青年因武漢肺炎，目前正遭遇求職困難。加上物價上漲、房價上漲，年輕人還有機會在如此險惡的環境下生存嗎？！
+                      2020年台灣青年因武漢肺炎，目前正遭遇求職困難。加上物價上漲、房價上漲，年輕人還有機會在如此險惡的環境下生存嗎？！"
+        example:textColor="@android:color/black"
+        example:textSize="20sp"
+        example:textStyle="bold" />
+
+</android.support.constraint.ConstraintLayout>

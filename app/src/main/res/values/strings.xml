@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AndroidProject</string>
+    <string-array name="MealFee">
+        <item>早餐</item>
+        <item>午餐</item>
+        <item>晚餐</item>
+    </string-array>
+
+    <string-array name="fell">
+        <item>感覺豪華</item>
+        <item>感覺普通</item>
+        <item>感覺糟糕</item>
+    </string-array>
+</resources>

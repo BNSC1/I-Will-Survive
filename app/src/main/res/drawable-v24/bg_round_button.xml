@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke
+            android:width="0dip"
+            android:color="#ffffff" />
+
+    <corners
+            android:topLeftRadius="500sp"
+            android:topRightRadius="500sp"
+            android:bottomLeftRadius="500sp"
+            android:bottomRightRadius="500sp" />
+//         修改按鈕顏色
+    <solid android:color="#FF89DBD2"/>
+
+    <padding android:left="10dp" android:top="10dp" android:right="10dp" android:bottom="10dp" />
+</shape>
