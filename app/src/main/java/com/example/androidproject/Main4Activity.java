@@ -19,8 +19,8 @@ public class Main4Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
 
-        btn_h=findViewById(R.id.btn_home);
-        btn_c=findViewById(R.id.btn_car);
+//        btn_h=findViewById(R.id.btn_home);
+//        btn_c=findViewById(R.id.btn_car);
         btn_re=findViewById(R.id.btn_RE);
 //        btn_re.setVisibility(View.INVISIBLE);
         btn_w=findViewById(R.id.btn_how);
@@ -42,15 +42,15 @@ public class Main4Activity extends AppCompatActivity {
     public void btton_how(View w) {
 
         edi_price.setVisibility(View.VISIBLE);
-        btn_w.setText("確定?!");
+//        btn_w.setText("確定?!");
         if(edi_price.length()==0){
             tex_show.setText("請輸入完整資料");}
         else {
             String str=edi_price.getText().toString();
             double var=Double.parseDouble(str);
             tex_show.setText("目標存到 : "+String.format("%.0f",var/10000)+"萬"+"\n"
-            +"不吃不喝 要 :"+String.format("%.0f",var/total_E)+" 天"
-            +"\n維持最低開銷 要 :"+String.format("%.0f",var/(total_E-eat_cost))+" 天");
+            +"不吃不喝要 :"+String.format("%.0f",var/total_E)+" 天"
+            +"\n維持最低開銷要 :"+String.format("%.0f",var/(total_E-eat_cost))+" 天");
 
             btn_re.setVisibility(View.VISIBLE);
         }
@@ -63,17 +63,17 @@ public  void  OneAgain(View w){
 
 
 
-    public void btton_car(View w) {
-        btn_w.setVisibility(View.VISIBLE);
-        btn_h.setVisibility(View.VISIBLE);
-        btn_w.setText("要花多少");
-        edi_price.setText(null);
-    }
-
-    public void btton_home(View w) {
-        btn_w.setVisibility(View.VISIBLE);
-        btn_h.setVisibility(View.VISIBLE);
-        btn_w.setText("要花多少");
-        edi_price.setText(null);
-    }
+//    public void btton_car(View w) {
+//        btn_w.setVisibility(View.VISIBLE);
+//        btn_h.setVisibility(View.VISIBLE);
+//        btn_w.setText("要花多少");
+//        edi_price.setText(null);
+//    }
+//
+//    public void btton_home(View w) {
+//        btn_w.setVisibility(View.VISIBLE);
+//        btn_h.setVisibility(View.VISIBLE);
+//        btn_w.setText("要花多少");
+//        edi_price.setText(null);
+//    }
 }

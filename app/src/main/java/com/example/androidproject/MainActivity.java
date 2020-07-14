@@ -41,13 +41,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         //資料欄位
         edi_01=findViewById(R.id.editText_bre);
-        edi_01.setText("20");//預設值
+        edi_01.setText("30");//預設值
         edi_01.setVisibility(View.INVISIBLE);
         edi_02=findViewById(R.id.editText_lun);
         edi_02.setText("70");//預設值
         edi_02.setVisibility(View.INVISIBLE);
         edi_03=findViewById(R.id.editText_din);
-        edi_03.setText("60");//預設值
+        edi_03.setText("70");//預設值
         edi_03.setVisibility(View.INVISIBLE);
         //說明欄位
         ind_01=findViewById(R.id.instructions01);
